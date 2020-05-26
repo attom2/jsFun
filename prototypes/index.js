@@ -966,7 +966,7 @@ const dinosaurPrompts = {
 
     let movieTitles = movies.reduce((acc, movie) => {
       let count = 0;
-      acc[movie.title] = movie.dinos.length -2 ;
+      acc[movie.title] = movie.dinos.length -2 ; 
       return acc;
     }, {})
     console.log(movieTitles)
